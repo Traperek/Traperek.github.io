@@ -30,14 +30,6 @@
     
 }
 
-.bg_video {
-    object-fit: cover;
-    width: 100% !important;
-    height: auto !important;
-    box-sizing: border-box;
-    z-index: 1;
-}
-
 .logo{
     color: red;
     z-index: 2;
