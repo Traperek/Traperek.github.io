@@ -1,0 +1,44 @@
+/* Turn off scrollbar (Chrome, Safari, Opera)*/
+*::-webkit-scrollbar{
+    display: none;
+}
+
+/* Turn off scrollbar (IE, Edge, Firefox*/
+*{  
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*{
+    margin:0;
+}
+
+
+.upper{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(70,0,142,1) 0%, rgba(85,0,136,1) 46%, rgba(146,5,184,1) 100%);
+    color: white;
+    font-family: 'Roboto Serif', serif;
+    
+}
+
+.about_button {
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffff;
+    border: 0px;
+    
+}
+
+.bg_video {
+    object-fit: cover;
+    width: 100% !important;
+    height: auto !important;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.logo{
+    color: red;
+    z-index: 2;
+}
